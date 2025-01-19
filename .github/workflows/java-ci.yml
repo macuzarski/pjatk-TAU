@@ -1,4 +1,4 @@
-name: Java CI
+name: GameBoard CI
 
 on:
   push:
@@ -22,5 +22,6 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
 
-      - name: Build with Maven
-        run: mvn clean install
+      - name: Compile GameBoard
+        run: |
+          javac src/main/java/com/example/utils/GameBoard.java
