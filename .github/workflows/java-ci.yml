@@ -24,4 +24,4 @@ jobs:
 
       - name: Compile GameBoard
         run: |
-          javac src/main/java/com/example/utils/GameBoard.java
+          javac src/main/java/org/example/utils/GameBoard.java
